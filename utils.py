@@ -15,7 +15,7 @@ def check_wallet(wallet):
         
 def send_fweb3(amount, sender_public_key, sender_private_key, receiver):
 
-    RPC = "https://polygon-mainnet.g.alchemy.com/v2/iS4IWtq7YDL6J5MWwPOK_KyfLKEs4vwc"
+    RPC = ""
     chain_Id = 137
     web3 = Web3(Web3.HTTPProvider(RPC))
     print(f"* {receiver} requested some $FWEB3")
@@ -44,7 +44,7 @@ def send_fweb3(amount, sender_public_key, sender_private_key, receiver):
 # disabled (needs some work but i'm too lazy...)        
 def check_balance(wallet):
 
-    RPC = "https://polygon-mainnet.g.alchemy.com/v2/iS4IWtq7YDL6J5MWwPOK_KyfLKEs4vwc"
+    RPC = ""
     chain_Id = 137
     web3 = Web3(Web3.HTTPProvider(RPC))
 
