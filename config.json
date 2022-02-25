@@ -1,0 +1,6 @@
+{
+    "bot_token":"",
+    "amount_to_send":"",
+    "faucet_public_key":"",
+    "faucet_private_key":""
+}
